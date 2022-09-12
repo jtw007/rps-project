@@ -1,13 +1,14 @@
 let getComputerChoice = Math.floor(Math.random());
 
+
 function getComputerChoice() {
     console.log('Rock');
     console.log('Paper');
     console.log('Scissors');
 }
-getComputerChoice();
+    
 
-function playerSelection (){
+function playerSelection () {
 
 }
 
@@ -16,10 +17,6 @@ function computerSelection () {
 }
 
 function playRound(playerSelection, computerSelection) {
-    // code 
-}
-
-
 if (playerSelection === Rock && computerSelection === Paper){
     console.log("You lose! Paper beats rock!");
 }
@@ -47,3 +44,6 @@ else if (playerSelection === Scissors && computerSelection === Paper) {
 else if (playerSelection === Scissors && computerSelection ===Scissors) {
     console.log("It's a draw!");
 }
+}
+
+
